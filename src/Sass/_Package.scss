@@ -1,0 +1,48 @@
+@import "./Colors";
+@import "./Font";
+
+.package {
+    .package-title {
+        text-align: center;
+        @include primary-heading;
+        margin-top: 2rem;
+    }
+    .package-desc {
+        text-align: center;
+    }
+    .package-card {
+        background-color: $theme-color;
+        width: 18rem;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+        border-radius: 0.7rem;
+        margin-bottom: 2rem;
+        h4 {
+            text-align: center;
+            padding-top: 1rem;
+            @include secondary-heading;
+        }
+        h6 {
+            text-align: center;
+            @include sub-title;
+        }
+        img {
+            width: 40%;
+        }
+        .package-items {
+            p {
+                margin-left: 2rem;
+            }
+            span {
+                svg {
+                    color: $primary-color;
+                }
+            }
+        }
+        .package-btn {
+            @include Button(0.7rem, 1.9rem);
+            @include link-font($theme-color);
+            margin: 10px 67px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import "./Font";
+
+.banner_wrapper {
+    margin-top: 5rem;
+    h4 {
+        @include secondary-heading;
+    }
+    h2 {
+        @include primary-heading;
+        margin-top:1rem;
+    }
+    p {
+        @include paragraph;
+        margin-top:1rem;
+    }
+    button {
+        @include Button(.9rem,1.9rem);
+    }
+}

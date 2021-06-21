@@ -1,0 +1,19 @@
+@import './Font';
+
+.navbar {
+
+    .navbar-brand {
+        img{
+            width: 7rem;
+        }
+    }
+    .nav-link {
+        @include link-font($primary-color);
+        margin-left: 1rem;
+    }
+    .contact-btn{
+        @include Button(.7rem, 1.9rem);
+        text-transform: uppercase;
+        margin-left: 1rem;
+    }
+}
