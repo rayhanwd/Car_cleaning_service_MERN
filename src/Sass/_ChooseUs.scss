@@ -1,0 +1,32 @@
+@import "./Font";
+.row {
+    h3 {
+        text-align: center;
+        span{
+        @include secondary-heading(2.1rem);
+        &:hover{
+            border-bottom: .1rem solid $secondary-color;
+            transition: border-bottom ease-in-out .3s;
+        }
+    }
+    }
+    .Service_card {
+        text-align: center;
+        border: 0.1rem solid $theme-color;
+        .img_box {
+            img {
+                width: 20%;
+                margin-top: 1rem;
+                color: $primary-color !important;
+            }
+        }
+        h4 {
+            @include secondary-heading(1.3rem);
+            margin-top: 2rem;
+        }
+        p {
+            @include paragraph;
+            padding: 1rem;
+        }
+    }
+}

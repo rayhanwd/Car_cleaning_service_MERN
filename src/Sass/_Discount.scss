@@ -1,0 +1,17 @@
+@import './Font';
+
+.discount{
+    background:url('.././Images/discount_bg.png') no-repeat center;
+    margin-top:4rem;
+    .container{
+        .row{
+            .discount-card{
+                text-align: center;
+                padding: 3rem 0rem 3rem 0rem;
+                h2{@include secondary-heading(3rem)}
+                p{@include paragraph}
+                button{@include Button(.5rem, 1.5rem,.2rem)}
+            }
+        }
+    }
+}

@@ -5,25 +5,13 @@
     text-decoration: none;
     font-size: 1rem;
 }
-@mixin Button($x, $y) {
+@mixin Button($x, $y,$radius) {
     background-color: $button-bg-color;
     color: $text-color;
     padding: $x $y;
-    border-radius: 0.4rem;
+    border-radius: $radius;
     &:hover {
         background-color: $button-hover-bg-color;
         color: $theme-color;
-    }
-}
-
-@mixin Button2($color, $border, $padding-x, $padding-y) {
-    @if $color && $border && $padding {
-        background-color: #f2f2f2;
-        border-radius: $border solid red;
-        padding: $padding-x, $padding-y;
-    } @else {
-        background-color: #f2f2f2;
-        border-radius: $border solid blue;
-        padding: $padding-x, $padding-y;
     }
 }

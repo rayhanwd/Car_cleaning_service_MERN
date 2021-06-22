@@ -12,7 +12,7 @@
         margin-left: 1rem;
     }
     .contact-btn{
-        @include Button(.7rem, 1.9rem);
+        @include Button(.7rem, 1.9rem,0.4rem);
         text-transform: uppercase;
         margin-left: 1rem;
     }

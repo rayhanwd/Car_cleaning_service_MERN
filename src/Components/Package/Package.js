@@ -7,7 +7,7 @@ const Package = () => {
         <div className="container">
             <div className="row package">
                 <div className="col-md-12">
-                    <h2 className="package-title">Our Package</h2>
+                    <h4 className="package-title">Our Package</h4>
                     <p className="package-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum eaque minus explicabo mollitia!</p>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12">

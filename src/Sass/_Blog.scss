@@ -1,0 +1,28 @@
+@import "./Font";
+
+.container {
+    margin-top: 5rem;
+    .row {
+        .blog-title{
+            margin: 0 auto;
+            h2{text-align: center; @include secondary-heading(2rem)}
+            p{text-align: center; @include paragraph}
+        }
+        .blog-item{
+        .blog-content {
+            margin: 0rem 1rem 0rem 1rem;
+            img {
+                width:100%;
+            }
+            h4 {
+                @include secondary-heading(1.3rem);
+                padding: .5rem .4rem 0rem .4rem;
+            }
+            p {
+                @include paragraph;
+                padding: .4rem;
+            }
+        }
+    }
+    }
+}

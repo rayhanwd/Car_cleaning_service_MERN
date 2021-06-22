@@ -1,0 +1,34 @@
+@import "./Font";
+
+.review {
+    background: url('../Images/review_bg.png') no-repeat center;
+    .container {
+        margin-top: 4rem;
+        .row {
+            .review-title {
+                margin: 0 auto;
+                @include secondary-heading(2rem);
+                padding-top: 2rem;
+            }
+        }
+        .content {
+            margin-top: 2rem;
+            text-align: center;
+            p {
+                @include paragraph;
+                text-align: start;
+            }
+            .image {
+                margin-bottom: 1.5rem;
+            }
+            h5 {
+               @include secondary-heading(1.7rem);
+               color:$button-bg-color;
+            }
+            h6 {
+                @include sub-title;
+                color:$text-color;
+            }
+        }
+    }
+}

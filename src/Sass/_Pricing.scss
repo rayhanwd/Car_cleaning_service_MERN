@@ -1,0 +1,36 @@
+@import "./Font";
+
+.container {
+    .row {
+        .pricing-title {
+            margin: 0 auto;
+            padding: 3rem 0rem 3rem 0rem;
+            h3 {
+                @include secondary-heading(2rem);
+            }
+            p {
+                @include paragraph;
+            }
+        }
+        .pricing-table {
+            text-align: center;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+            margin: 0rem 3rem 0rem 3rem;
+            padding: 2rem 0rem 2rem 0rem;
+            border-radius: 0.5rem;
+            background-color: $theme-color;
+            h5 {
+                @include paragraph;
+            }
+            h1 {
+                @include secondary-heading(2rem);
+                span {
+                    @include paragraph;
+                }
+            }
+            button {
+                @include Button(0.5rem, 1rem,0.4rem);
+            }
+        }
+    }
+}
