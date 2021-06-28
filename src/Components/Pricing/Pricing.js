@@ -13,11 +13,11 @@ const Pricing = () => {
                         <div className="pricing-table">
                             <h5>Starter Plan</h5>
                             <h1><span>$</span>23</h1>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
+                            <p>Vacuum interior including all mats, footwells, seats and boot</p>
+                            <p>Clean interior glass to remove smears and streaks</p>
+                            <p>Cleaning and conditioning of dashboard</p>
+                            <p>Wipe door and boot jambs</p>
+                            <p>High-pressure rinse to remove built-up grime and debris</p>
                             <button>Order now</button>
                         </div>
                     </div>
@@ -25,11 +25,11 @@ const Pricing = () => {
                         <div className="pricing-table">
                             <h5>Standard Plan</h5>
                             <h1><span>$</span>49</h1>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
+                            <p>Vacuum interior including all mats, footwells, seats and boot</p>
+                            <p>Clean interior glass to remove smears and streaks</p>
+                            <p>Cleaning and conditioning of dashboard</p>
+                            <p>Wipe door and boot jambs</p>
+                            <p>High-pressure rinse to remove built-up grime and debris</p>
                             <button>Order now</button>
                         </div>
                     </div>
@@ -37,11 +37,11 @@ const Pricing = () => {
                         <div className="pricing-table">
                             <h5>Premium Plan</h5>
                             <h1><span>$</span>78</h1>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
-                            <p>local machine local machine</p>
+                            <p>Vacuum interior including all mats, footwells, seats and boot</p>
+                            <p>Clean interior glass to remove smears and streaks</p>
+                            <p>Cleaning and conditioning of dashboard</p>
+                            <p>Wipe door and boot jambs</p>
+                            <p>High-pressure rinse to remove built-up grime and debris</p>
                             <button>Order now</button>
                         </div>
                     </div>

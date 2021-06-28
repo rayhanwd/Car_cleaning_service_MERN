@@ -20,8 +20,9 @@
             }
             p {
                 @include paragraph;
-                padding: .4rem;
+                padding: .2rem;
             }
+            a{margin-top: 0rem}
         }
     }
     }

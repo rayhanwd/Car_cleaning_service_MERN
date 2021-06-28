@@ -6,6 +6,7 @@ import SpecialDiscount from '../Components/SpecialDiscount/SpecialDiscount';
 import Header from './../Components/Header/Header';
 import Package from './../Components/Package/Package';
 import Blog from './../Components/Blog/Blog';
+import Footer from '../Components/Footer/Footer';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
            <Pricing/>
            <SpecialDiscount/>
            <Blog/>
+           <Footer/>
         </>
     );
 };
